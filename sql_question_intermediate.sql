@@ -6,7 +6,7 @@ create database sql_question;
 CREATE TABLE events (
 ID int,
 event varchar(255),
-YEAR INt,
+YEAR int,
 GOLD varchar(255),
 SILVER varchar(255),
 BRONZE varchar(255)
