@@ -1,7 +1,7 @@
 create database testsql;
 use testsql;
 
--- Display highest and lowest salary corresponding to each Department. 
+-- Display the highest and lowest salaries corresponding to each Department. 
 -- Schema setup
 ```sql
 CREATE TABLE employees (
