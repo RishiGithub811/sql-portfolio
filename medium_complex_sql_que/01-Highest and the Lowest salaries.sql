@@ -2,6 +2,7 @@ create database testsql;
 use testsql;
 
 -- Display highest and lowest salary corresponding to each Department. 
+-- Schema setup
 
 CREATE TABLE employees (
     id INT PRIMARY KEY,
@@ -26,7 +27,7 @@ INSERT INTO employees (id, name, dept, salary) VALUES
 
 select * from employees;
 
--- Solution
+-- Solution Query
 
 select *,
 MAX(salary) over (partition by dept order by salary DESC) as highest_salary,
