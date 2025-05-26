@@ -29,4 +29,4 @@ SELECT *,
        MAX(population) OVER (PARTITION BY state_name) AS maximum_population,
        MIN(population) OVER (PARTITION BY state_name) AS minimum_population
 FROM Cities;
- ``` 
+``` 
