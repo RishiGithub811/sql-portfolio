@@ -1,4 +1,4 @@
-'''sql
+```sql
 CREATE TABLE Employee (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -29,4 +29,4 @@ Employee
 ORDER BY salary desc
 limit 1
 offset 5;
-'''
+```
